@@ -1,0 +1,275 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  color: #101827;
+}
+
+button, input {
+  font: inherit;
+}
+
+.app {
+  max-width: 480px;
+  min-height: 100vh;
+  margin: auto;
+  background: #f8fafc;
+  padding-bottom: 30px;
+}
+
+.header {
+  background: #101827;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-icon {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  background: #f5b82e;
+  color: #101827;
+  font-size: 25px;
+  font-weight: 900;
+  border-radius: 12px;
+}
+
+.brand h1 {
+  font-size: 17px;
+  margin: 0;
+  letter-spacing: .5px;
+}
+
+.brand p {
+  font-size: 9px;
+  margin: 5px 0 0;
+  color: #cbd5e1;
+  letter-spacing: 1px;
+}
+
+.logout {
+  background: #263449;
+  color: white;
+  border: 0;
+  border-radius: 9px;
+  padding: 10px;
+}
+
+.login-card {
+  margin: 35px 20px;
+  background: white;
+  border-radius: 18px;
+  padding: 25px 20px;
+  box-shadow: 0 8px 30px #0f172a0c;
+}
+
+.hero-icon {
+  width: 65px;
+  height: 65px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 18px;
+  border-radius: 18px;
+  background: #fff4d6;
+  color: #b77900;
+}
+
+.login-card h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 23px;
+}
+
+.muted {
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.login-card > .muted {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 20px 0 8px;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #dbe2ea;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  outline: none;
+  color: #101827;
+}
+
+input:focus {
+  border-color: #d69b17;
+  box-shadow: 0 0 0 3px #f5b82e25;
+}
+
+.primary-button {
+  width: 100%;
+  margin-top: 24px;
+  background: #f5b82e;
+  color: #101827;
+  border: 0;
+  border-radius: 11px;
+  padding: 16px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.secure-note {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  color: #64748b;
+  font-size: 12px;
+}
+
+.dashboard {
+  padding: 22px 18px;
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome h2 {
+  margin: 6px 0;
+  font-size: 22px;
+}
+
+.shop-icon {
+  background: #fff1c7;
+  padding: 14px;
+  border-radius: 14px;
+  color: #a66a00;
+}
+
+.shop-card {
+  margin-top: 24px;
+  background: #101827;
+  color: white;
+  padding: 22px;
+  border-radius: 16px;
+}
+
+.shop-card p {
+  color: #f5b82e;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.shop-card h3 {
+  margin: 8px 0;
+  font-size: 20px;
+}
+
+.shop-card span {
+  color: #cbd5e1;
+  font-size: 12px;
+}
+
+.request-card {
+  margin-top: 22px;
+  background: white;
+  border-radius: 16px;
+  padding: 22px 18px;
+  box-shadow: 0 8px 30px #0f172a0c;
+}
+
+.request-card h2 {
+  margin: 0;
+  font-size: 21px;
+}
+
+.amount-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #dbe2ea;
+  border-radius: 10px;
+  padding-left: 14px;
+  color: #a66a00;
+}
+
+.amount-input input {
+  border: 0;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.amount-input input:focus {
+  box-shadow: none;
+}
+
+.info-card {
+  margin-top: 20px;
+  background: #fff4d6;
+  border-radius: 13px;
+  padding: 16px;
+  display: flex;
+  gap: 12px;
+  color: #855900;
+}
+
+.info-card p {
+  color: #785f30;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.message {
+  margin: 15px 20px;
+  background: #fff4d6;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.message button {
+  display: block;
+  margin-top: 10px;
+  border: 0;
+  background: #101827;
+  color: white;
+  border-radius: 7px;
+  padding: 8px 16px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  color: #94a3b8;
+  font-size: 11px;
+  }
