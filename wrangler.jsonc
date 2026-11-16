@@ -9,6 +9,13 @@
     "binding": "ASSETS",
     "not_found_handling": "single-page-application"
   },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "jaidev-tap-pay-db",
+      "database_id": "5aae0180-b305-426c-ad55-ddd509d36ad5"
+    }
+  ],
   "observability": {
     "enabled": true
   }
