@@ -2,7 +2,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "jaidev-tap-pay",
-  "compatibility_date": "2026-11-17",
+  "compatibility_date": "2026-11-16",
   "main": "worker/index.ts",
   "assets": {
     "directory": "./dist",
